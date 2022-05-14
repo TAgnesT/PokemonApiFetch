@@ -1,0 +1,99 @@
+body {
+    height: 100vh;
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+}
+
+#pokelogo{
+    height: 130px;
+}
+
+#pokemonresult{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    height: 280px;
+    margin: 10px auto;
+    background: #f4efef;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 15rem;
+    box-shadow: 12px 10px 20px -4px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 12px 10px 20px -4px rgba(0,0,0,0.48);
+    -moz-box-shadow: 12px 10px 20px -4px rgba(0,0,0,0.48);
+}
+
+button{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    /*background: #ffffff7c;*/
+    margin: 15px 0;
+    background: #d93439;
+    background-image: -webkit-linear-gradient(top, #d93439, #2b2db8);
+    background-image: -moz-linear-gradient(top, #d93439, #2b2db8);
+    background-image: -ms-linear-gradient(top, #d93439, #2b2db8);
+    background-image: -o-linear-gradient(top, #d93439, #2b2db8);
+    background-image: linear-gradient(to bottom, #d93439, #2b2db8);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    box-shadow: 12px 11px 9px -4px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 12px 11px 9px -4px rgba(0,0,0,0.4);
+    -moz-box-shadow: 12px 11px 9px -4px rgba(0,0,0,0.4);
+}
+
+button:hover {
+
+    font-family: 'Raleway', sans-serif;
+    background: #433cfc;
+    background-image: -webkit-linear-gradient(top, #433cfc, #d93434);
+    background-image: -moz-linear-gradient(top, #433cfc, #d93434);
+    background-image: -ms-linear-gradient(top, #433cfc, #d93434);
+    background-image: -o-linear-gradient(top, #433cfc, #d93434);
+    background-image: linear-gradient(to bottom, #433cfc, #d93434);
+    text-decoration: none;
+  }
+
+input{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background: #ffffff94;
+    height: 25px;
+    width: 210px;
+}
+
+#pokemonimg{
+    height: 150px;
+}
+
+#pokelogo{
+
+    margin-top: 130px;
+}
